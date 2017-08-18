@@ -1,4 +1,4 @@
-﻿namespace HRMS
+﻿namespace EventMailingSystem
 {
     public interface IEventType
     {

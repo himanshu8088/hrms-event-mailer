@@ -1,8 +1,7 @@
-﻿namespace HRMS
+﻿namespace EventMailingSystem
 {
     public interface IDataProvider
     {
-        IDataProvider XmlDataProvider { get; set; }
-        IDataProvider JsonDataProvider { get; set; }
+        IDetail GetDetail(string filePath);
     }
 }

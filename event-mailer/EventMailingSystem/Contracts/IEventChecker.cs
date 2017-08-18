@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace HRMS
+namespace EventMailingSystem
 {
     public interface IEventChecker
     {

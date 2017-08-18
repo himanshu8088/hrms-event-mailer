@@ -31,6 +31,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -48,7 +49,16 @@
     <Compile Include="Contracts\IEventMailer.cs" />
     <Compile Include="Contracts\IEventType.cs" />
     <Compile Include="Contracts\IMailingSystem.cs" />
+    <Compile Include="Directory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DataProvider\XmlDataProvider.cs" />
+    <Compile Include="Setting.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DataStreamReader\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

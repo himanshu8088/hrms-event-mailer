@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace EventMailingSystem
+{
+    public class XmlDataProvider : IDataProvider
+    {
+        public IDetail GetDetail(string filePath)
+        {
+            throw new NotImplementedException();
+        }
+    }
+}
