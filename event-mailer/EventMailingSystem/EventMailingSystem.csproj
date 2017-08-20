@@ -41,24 +41,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Contracts\IDataProvider.cs" />
-    <Compile Include="Contracts\IDetail.cs" />
-    <Compile Include="Contracts\IDetailAdapter.cs" />
-    <Compile Include="Contracts\IEventChecker.cs" />
-    <Compile Include="Contracts\IHrms.cs" />
-    <Compile Include="Contracts\IEventMailer.cs" />
-    <Compile Include="Contracts\IEventType.cs" />
-    <Compile Include="Contracts\IMailingSystem.cs" />
-    <Compile Include="Directory.cs" />
+    <Compile Include="EventMailer\Greeter.cs" />
+    <Compile Include="Contracts\IBirthday.cs" />
+    <Compile Include="Contracts\IData.cs" />
+    <Compile Include="Contracts\IEmployeeData.cs" />
+    <Compile Include="Contracts\IEmpGreeting.cs" />
+    <Compile Include="Contracts\IEmpGreeter.cs" />
+    <Compile Include="Contracts\IMail.cs" />
+    <Compile Include="Contracts\IMailer.cs" />
+    <Compile Include="Contracts\IEmpGreetMailConverter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="DataProvider\XmlDataProvider.cs" />
-    <Compile Include="Setting.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="DataStreamReader\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

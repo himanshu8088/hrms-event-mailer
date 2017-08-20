@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace EventMailingSystem
 {
-    interface IHrms
+    public interface IMailer
     {
+        void Send(IMail mail);
     }
 }

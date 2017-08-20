@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace EventMailingSystem
 {
-   public interface IDetailAdapter
+    public interface IData
     {
-        IDetail GetDetail(IDataProvider dataSource);        
     }
 }

@@ -6,10 +6,7 @@ using System.Threading.Tasks;
 
 namespace EventMailingSystem
 {
-    interface IEventMailer
-    {                
-        void FetchDetail();
-        void CheckEvent();        
-        void SendMail();
+    public interface IGreet
+    {
     }
 }
