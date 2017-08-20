@@ -41,10 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Contracts\IGreet.cs" />
+    <Compile Include="EventMailer\Birthday.cs" />
+    <Compile Include="EventMailer\Greeting.cs" />
     <Compile Include="EventMailer\Greeter.cs" />
-    <Compile Include="Contracts\IBirthday.cs" />
     <Compile Include="Contracts\IData.cs" />
-    <Compile Include="Contracts\IEmployeeData.cs" />
+    <Compile Include="Contracts\IEmployee.cs" />
     <Compile Include="Contracts\IEmpGreeting.cs" />
     <Compile Include="Contracts\IEmpGreeter.cs" />
     <Compile Include="Contracts\IMail.cs" />
